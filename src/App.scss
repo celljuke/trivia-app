@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Monda|Montserrat:300,400,500,700');
+@import './styles/_colors.scss';
+
+* {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: $main-background-gradient;
+  font-size: 10px;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  overflow: auto;
+
+  .trivia-application {
+    height: 100%;
+
+    .main-window {
+      min-height: 100%;
+      color: $main-text-color;
+      max-width: 120rem;
+      padding: 5rem 5rem 0; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+
+.sky {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url('./assets/images/sky@2x.png');
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}

@@ -1,0 +1,5 @@
+export const SET_USER_NAME = "SET_USER_NAME";
+export const ADD_QUESTIONS = "ADD_QUESTIONS";
+export const REPLY_QUESTION = "REPLY_QUESTION";
+export const SET_ACTIVE_QUESTION = "SET_ACTIVE_QUESTION";
+export const PLAY_AGAIN = "PLAY_AGAIN";

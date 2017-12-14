@@ -1,0 +1,32 @@
+.question-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .question-page .category {
+    text-align: center;
+    margin: 5rem 0 5rem; }
+    .question-page .category h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+      color: #7d85f0; }
+  .question-page p {
+    margin: 0;
+    font-family: 'Monda', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.1; }
+  .question-page .question {
+    font-family: 'Monda', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center; }
+  .question-page .buttons {
+    display: flex;
+    margin: 5rem 0 5rem; }
+    .question-page .buttons button + button {
+      margin-left: 3rem; }
+    .question-page .buttons button.true {
+      background-color: #00ca5b; }
+    .question-page .buttons button.false {
+      background-color: #e60000; }

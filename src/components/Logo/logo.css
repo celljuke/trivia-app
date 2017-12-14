@@ -1,0 +1,15 @@
+.logo span {
+  display: block;
+  text-align: center;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 10rem;
+  box-shadow: 0 0 5rem #fff, 0 0 15rem #fff;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 100%;
+  background-color: #fff;
+  color: #e02365;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: .8; }
